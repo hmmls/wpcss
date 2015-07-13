@@ -1,0 +1,16 @@
+blockquote {
+
+margin:10px;
+/*отступ по периметру блока*/ padding:15px 20px 15px 80px;
+/*внутренний отступ*/ border:1px solid #999999;
+/*рамка*/
+border-radius: 8px; /*скругление углов*/
+-moz-border-radius:8px 8px 8px 8px; box-shadow:2px 2px 3px #999999; /*тень для блока*/
+-moz-box-shadow:2px 2px 3px #999999; -webkit-box-shadow: #999 2px 2px 3px;
+background-position:20px 50%; /*позиционирование картинки*/
+background-repeat:no-repeat; /*отменяем повторение картинки*/
+position:relative; text-align:justify; /*Выравнивание теста по ширине*/
+/*font-size : 14px;*/ min-height: 50px;/*минимальная высота блока*/ 
+/*background-color : #D9F9E5;*/ /*фон блока*/
+background-image : url(images/stethoscope-50.png);
+}
